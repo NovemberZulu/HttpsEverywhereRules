@@ -1,0 +1,9 @@
+<ruleset name="KIAS">
+  <target host="kias.rfbr.ru" />
+  <target host="kias.rffi.ru" />
+
+  <rule from="^http://kias\.rfbr\.ru/" to="https://kias.rfbr.ru/"/>
+  <rule from="^http://kias\.rffi\.ru/" to="https://kias.rfbr.ru/"/>
+  
+  <securecookie host="^kias\.rfbr\.ru$" name=".*" />
+</ruleset>
